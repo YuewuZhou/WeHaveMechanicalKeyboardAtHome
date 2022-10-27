@@ -8,8 +8,7 @@ from playsound import playsound
 
 import pyglet
 
-pyglet.resource.path = [
-    'C:\\Users\\ZackZhou\\local\\loud_keyboard\\keyboard_sounds\\']
+pyglet.resource.path = ['.\\keyboard_sounds\\']
 pyglet.resource.reindex()
 
 
