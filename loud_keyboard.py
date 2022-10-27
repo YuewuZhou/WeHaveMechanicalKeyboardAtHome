@@ -46,6 +46,9 @@ def on_press(key):
     if key == Key.shift_r:
         print("don't play sounds for keys that need to be held")
         play = False
+    if key == Key.cmd:
+        print("don't play sounds for keys that need to be held")
+        play = False
     if key == Key.space:
         play = False
         play2 = True
