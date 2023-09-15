@@ -4,9 +4,13 @@
 
 # install python and pip 
 
+<!-- pip install --upgrade wheel
 pip install pyglet
 pip install pynput
-pip install playsound
+pip install playsound -->
+
+pip freeze > requirements.txt - save all currently active packages
+pip install -r requirements.txt - install them
 
 # make sure that the root folder is one above keyboard_sounds
 # IE, if you type either ls or dir into terminal, you should see the folder keyboard_sounds
